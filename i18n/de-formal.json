@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vincent Mahnke"
+		]
+	},
+    "extendeduserprofiles-desc": "Diese MediaWiki-Erweiterung ersetzt absolute Links zu dieser Installation automatisch durch relative Links, um einen einfachen Umzug auf andere Hostnames zu garantieren"
+}

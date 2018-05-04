@@ -1,0 +1,24 @@
+{
+	"name": "Internalize",
+	"version": "1.0.0",
+	"author": "[https://vincent.mahn.ke/ Vincent Mahnke]",
+	"url": "https://github.com/ViMaSter/Internalize",
+	"descriptionmsg": "internalize-desc",
+	"license-name": "CC-by-nc-sa-4.0",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
+	"MessagesDirs": {
+		"internalize": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+        "Internalize\\OnSaveHandler": "OnSaveHandler.php"
+	},
+	"Hooks": {
+		"PageContentSave": "Internalize\\OnSaveHandler::OnPageContentSave"
+	},
+	"manifest_version": 1
+}
